@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using MovieWebAPI.Data;
 using MovieWebAPI.Models;
 
@@ -27,9 +28,10 @@ namespace MovieWebAPI.Controllers
 
         // GET api/<MoviesController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult Get(int id)
         {
-            return "value";
+            var movies = _context.movies.Find(id);
+            return Ok(movies);
         }
 
         // POST api/<MoviesController>
