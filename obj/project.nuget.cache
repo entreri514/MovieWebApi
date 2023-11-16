@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LyI9QpK2BAdbCMjru+OkiJkEzhNU0QT8c7/4FcCbwSzlNoF8jj4ut29RpGBCbIrIW7reu15QtCHWXZG42arc8Q==",
+  "dgSpecHash": "CRpiFEietyMkBhArovmnsM+w0ooy+KOhNP/9cmY2m/PQlbStuSZbfQyIavQM6O5tFpSeuchqcB9J/NMIsNMaMg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dallas\\Desktop\\devCodeCamp\\C# intro\\MovieWebAPI\\MovieWebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Dallas\\Desktop\\devCodeCamp\\C# intro\\MovieWebAPI\\MovieWebApi\\MovieWebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dallas\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Dallas\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dallas\\Desktop\\devCodeCamp\\C# intro\\MovieWebAPI\\MovieWebAPI.csproj": {}
+    "C:\\Users\\Dallas\\Desktop\\devCodeCamp\\C# intro\\MovieWebAPI\\MovieWebApi\\MovieWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dallas\\Desktop\\devCodeCamp\\C# intro\\MovieWebAPI\\MovieWebAPI.csproj": {
+    "C:\\Users\\Dallas\\Desktop\\devCodeCamp\\C# intro\\MovieWebAPI\\MovieWebApi\\MovieWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dallas\\Desktop\\devCodeCamp\\C# intro\\MovieWebAPI\\MovieWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Dallas\\Desktop\\devCodeCamp\\C# intro\\MovieWebAPI\\MovieWebApi\\MovieWebAPI.csproj",
         "projectName": "MovieWebAPI",
-        "projectPath": "C:\\Users\\Dallas\\Desktop\\devCodeCamp\\C# intro\\MovieWebAPI\\MovieWebAPI.csproj",
+        "projectPath": "C:\\Users\\Dallas\\Desktop\\devCodeCamp\\C# intro\\MovieWebAPI\\MovieWebApi\\MovieWebAPI.csproj",
         "packagesPath": "C:\\Users\\Dallas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dallas\\Desktop\\devCodeCamp\\C# intro\\MovieWebAPI\\obj\\",
+        "outputPath": "C:\\Users\\Dallas\\Desktop\\devCodeCamp\\C# intro\\MovieWebAPI\\MovieWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
