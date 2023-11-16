@@ -51,17 +51,25 @@ namespace MovieWebAPI.Controllers
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] string value)
         {
-            var movies=_context.movies.
+            var movies = _context.movies.Find(id, value);
+            
+            movies.Id = id;
+            movies.Title = value;
+            movies.RunningTime = 5;
+            movies.Genre = "b";
+            _context.Update(movies);
+            _context.SaveChanges();
+            return StatusCode(201,movies);
         }
 
         // DELETE api/<MoviesController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
             var movies = _context.movies.Find(id);
             _context.movies.Remove(movies);
             _context.SaveChanges();
-            return;
+            return Ok(movies);
         }
     }
 }
