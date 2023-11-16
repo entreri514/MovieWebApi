@@ -18,9 +18,11 @@ namespace MovieWebAPI.Controllers
         }
         // GET: api/<MoviesController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IActionResult Get()
         {
-            return new string[] { "value1", "value2" };
+
+            var movies = _context.movies.ToList();
+            return Ok(movies);
         }
 
         // GET api/<MoviesController>/5
