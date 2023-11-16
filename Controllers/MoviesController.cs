@@ -31,6 +31,10 @@ namespace MovieWebAPI.Controllers
         public IActionResult Get(int id)
         {
             var movies = _context.movies.Find(id);
+            if (movies == null)
+            {
+                return NotFound();
+            }
             return Ok(movies);
         }
 
@@ -43,16 +47,21 @@ namespace MovieWebAPI.Controllers
             return StatusCode(201,movie);
         }
 
-        // PUT api/<MoviesController>/5
+        //PUT api/<MoviesController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public IActionResult Put(int id, [FromBody] string value)
         {
+            var movies=_context.movies.
         }
 
         // DELETE api/<MoviesController>/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+            var movies = _context.movies.Find(id);
+            _context.movies.Remove(movies);
+            _context.SaveChanges();
+            return;
         }
     }
 }
